@@ -11,6 +11,11 @@
 		113DE4182C209673003786AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113DE4172C209673003786AF /* ContentView.swift */; };
 		113DE41A2C209675003786AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113DE4192C209675003786AF /* Assets.xcassets */; };
 		113DE41D2C209675003786AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113DE41C2C209675003786AF /* Preview Assets.xcassets */; };
+		113DE4242C2096B7003786AF /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113DE4232C2096B7003786AF /* APIManager.swift */; };
+		113DE4262C209BB8003786AF /* TabViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113DE4252C209BB8003786AF /* TabViewView.swift */; };
+		113DE4282C209BE9003786AF /* DailyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113DE4272C209BE9003786AF /* DailyView.swift */; };
+		113DE42A2C209BFA003786AF /* GetRandomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113DE4292C209BFA003786AF /* GetRandomView.swift */; };
+		113DE42C2C20A049003786AF /* ViewForText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113DE42B2C20A049003786AF /* ViewForText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		113DE4172C209673003786AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		113DE4192C209675003786AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		113DE41C2C209675003786AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		113DE4232C2096B7003786AF /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		113DE4252C209BB8003786AF /* TabViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewView.swift; sourceTree = "<group>"; };
+		113DE4272C209BE9003786AF /* DailyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyView.swift; sourceTree = "<group>"; };
+		113DE4292C209BFA003786AF /* GetRandomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRandomView.swift; sourceTree = "<group>"; };
+		113DE42B2C20A049003786AF /* ViewForText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewForText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				113DE4152C209673003786AF /* RandomFactsApp.swift */,
 				113DE4172C209673003786AF /* ContentView.swift */,
+				113DE4252C209BB8003786AF /* TabViewView.swift */,
+				113DE4272C209BE9003786AF /* DailyView.swift */,
+				113DE4292C209BFA003786AF /* GetRandomView.swift */,
+				113DE42B2C20A049003786AF /* ViewForText.swift */,
+				113DE4232C2096B7003786AF /* APIManager.swift */,
 				113DE4192C209675003786AF /* Assets.xcassets */,
 				113DE41B2C209675003786AF /* Preview Content */,
 			);
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				113DE42A2C209BFA003786AF /* GetRandomView.swift in Sources */,
+				113DE4242C2096B7003786AF /* APIManager.swift in Sources */,
+				113DE4262C209BB8003786AF /* TabViewView.swift in Sources */,
 				113DE4182C209673003786AF /* ContentView.swift in Sources */,
+				113DE4282C209BE9003786AF /* DailyView.swift in Sources */,
+				113DE42C2C20A049003786AF /* ViewForText.swift in Sources */,
 				113DE4162C209673003786AF /* RandomFactsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
